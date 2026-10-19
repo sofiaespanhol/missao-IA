@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Missão: Você decide o futuro da IA</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="quiz-container">
+    <div class="tag">MISSÃO INTERATIVA</div>
+
+    <h1>Você decide o <span>futuro da IA</span></h1>
+
+    <p class="description" id="intro">
+      A inteligência artificial está transformando o mundo.
+      Suas escolhas podem fazer a diferença. Vamos descobrir
+      como você tomaria decisões nessa nova realidade?
+    </p>
+
+    <div class="progress-info">
+      <span id="step">Questão 1 de 5</span>
+      <span id="percent">20%</span>
+    </div>
+
+    <div class="progress-bar">
+      <div class="progress" id="progress"></div>
+    </div>
+
+    <section id="quiz">
+      <h2 class="question" id="question"></h2>
+
+      <div class="options" id="options"></div>
+
+      <p class="feedback" id="feedback" aria-live="polite"></p>
+
+      <button class="main-button" id="next" disabled>
+        Confirmar resposta
+      </button>
+    </section>
+
+    <p class="footer">
+      Tecnologia, escolhas e responsabilidade.
+    </p>
+  </main>
+</body>
+</html>
